@@ -4,6 +4,7 @@
 Python3.10
 Django==5.2.5
 djangorestframework==3.16.1
+Postgresql
 
 ## Setup
 git clone <repo>
