@@ -1,4 +1,4 @@
-# Django RBAC Auth (JWT + Middleware)
+# Django Auth (JWT + Middleware)
 
 ## Tech Stack
 Python3.10
