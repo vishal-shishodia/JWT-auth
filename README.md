@@ -7,8 +7,8 @@ djangorestframework==3.16.1
 Postgresql
 
 ## Setup
-git clone <repo>
-cd <project-name>
+git clone repo_name
+cd project_name
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -22,7 +22,7 @@ python manage.py seed_users
 
 
 ## Auth header
-Authorization: Bearer <access-token>
+Authorization: Bearer token_data
 
 ## Design Decision
 Custom User Model - Requires users to provide a valid email, password, and other essential details during registration.
