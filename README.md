@@ -28,7 +28,7 @@ Authorization: Bearer <access-token>
 Custom User Model - Requires users to provide a valid email, password, and other essential details during registration.
 Middleware - Middleware is configured to restrict access to routes such as api/admin and other role-specific endpoints if request from other role type user.
 JWT Token - Access token life - 60 mins
-            Refresh toke life - 1 day
+            Refresh toke life - 5 days
 
 User Flow - 
     Currently following roles are considered - 
