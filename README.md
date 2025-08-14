@@ -39,3 +39,13 @@ On sign up -
 
 User details - 
     Users can view and update their own profile information.
+
+## API testing
+1. Register a user - /api/register
+2. login - /api/login
+3. Get a profile - /api/profile
+            this will return the profile data for the logged in user
+4. Update the user profile - /api/profile PUT
+            this will update the profile data for the logged in user
+5. Get the data of all the user if Admin - api/admin/users
+            this will return the profile details of all the user
